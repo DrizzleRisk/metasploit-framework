@@ -9,7 +9,7 @@ gem 'method_source', git: 'https://github.com/banister/method_source', branch: '
 # separate from test as simplecov is not run on travis-ci
 group :coverage do
   # code coverage for tests
-  gem 'simplecov'
+  gem 'simplecov', '>= 0.14.1'
 end
 
 group :development do
